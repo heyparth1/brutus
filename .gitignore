@@ -1,0 +1,27 @@
+# === Secrets & local config (NEVER commit) ===
+.env
+.env.*
+!.env.example
+!.env.*.example
+brutus.toml
+*.key
+*.pem
+
+# === Python (backend) ===
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# === Data, work dirs, cloned repos ===
+data/
+
+# === Node / Next.js (frontend in web/) ===
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# === OS ===
+.DS_Store
